@@ -1,12 +1,12 @@
 ---
-title: "Basi di Dati e Data Analytics - Progetto finale"
+title: "Data Analytics project"
 output:
   html_document:
     df_print: paged
   pdf_document:
     keep_tex: yes
   word_document: default
-author: "Gruppo F: Alberto Facchin, Andrea Tonello, Leonardo Micheluz, Lorenzo Cusin"
+author: "Alberto Facchin"
 date: "28-06-2023"
 ---
 
@@ -46,6 +46,7 @@ library(MASS)
 ```
 
 ```{r load, echo = FALSE, results = FALSE, message = FALSE}
+# set working directory
 setwd("C:/Users/albyf/Desktop/UniTS/Basi di dati modB")
 wholesale = read.csv("Wholesale customers data.csv", header = T, stringsAsFactors = T)
 str(wholesale)
