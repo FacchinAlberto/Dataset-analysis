@@ -6,7 +6,7 @@ output:
   pdf_document:
     keep_tex: yes
   word_document: default
-author: "Alberto Facchin"
+author: "Alberto Facchin, Leonardo Micheluz, Lorenzo Cusin"
 date: "28-06-2023"
 ---
 
